@@ -1,28 +1,50 @@
+// {
+//   "compilerOptions": {
+//     "outDir": "./dist/",
+//     "sourceMap": true,
+//     "strictNullChecks": true,
+//     "module": "esnext",
+//     "jsx": "react",
+//     "target": "es5",
+//     "allowJs": true,
+//     "lib": [
+//       "dom",
+//       "dom.iterable",
+//       "esnext"
+//     ],
+//     "skipLibCheck": true,
+//     "esModuleInterop": true,
+//     "allowSyntheticDefaultImports": true,
+//     "strict": true,
+//     "forceConsistentCasingInFileNames": true,
+//     "moduleResolution": "node",
+//     "resolveJsonModule": true,
+//     "isolatedModules": true,
+//     "noEmit": true
+//   },
+//   "include": [
+//     "./src/"
+//   ]
+// }
 {
-  "compilerOptions": {
-    "outDir": "./dist/",
-    "sourceMap": true,
-    "strictNullChecks": true,
-    "module": "esnext",
-    "jsx": "react",
-    "target": "es5",
-    "allowJs": true,
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true
-  },
-  "include": [
-    "./src/"
-  ]
+	"compilerOptions": {
+		"outDir": "./dist/",
+		"module": "esnext",
+		"target": "es5",
+		"sourceMap": true,
+		"jsx": "preserve",
+		"allowJs": true,
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"strict": false,
+		"noEmit": true
+	},
+	"exclude": ["node_modules"],
+	"include": ["src"]
 }

@@ -3,13 +3,13 @@
 // Your Summary And Greeting Section
 
 import emoji from "react-easy-emoji";
+import { Greeting } from "./assets/types/interfaces";
 
-const greeting = {
+const greeting: Greeting = {
 	/* Your Summary And Greeting Section */
-	title: "Hi all I'm Saad",
-	subTitle: emoji(
-		"A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks"
-	),
+	title: "Hi, I'm Michael",
+	subTitle:
+		"A passionate Full Stack Software Developer 🚀 with experience in Java, JavaScript, Python, C++",
 	resumeLink:
 		"https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
 };
@@ -17,11 +17,11 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-	github: "https://github.com/saadpasta",
-	linkedin: "https://www.linkedin.com/in/saadpasta/",
-	gmail: "saadpasta70@gmail.com",
-	gitlab: "https://gitlab.com/saadpasta",
-	facebook: "https://www.facebook.com/saad.pasta7",
+	github: "https://github.com/IcyTv",
+	linkedin: undefined,
+	gmail: "michael.finger@icytv.de",
+	gitlab: "https://git.icytv.de",
+	facebook: undefined,
 };
 
 // Your Skills Section
@@ -226,6 +226,7 @@ const blogSection = {
 				"Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
 			description:
 				"Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min.",
+			image: "",
 		},
 		{
 			url:
@@ -233,6 +234,7 @@ const blogSection = {
 			title: "Why REACT Is The Best?",
 			description:
 				"React is a JavaScript library for building the user interface. It is maintained by Facebook and a community of individual developers and companies.",
+			image: "",
 		},
 	],
 };
@@ -270,11 +272,11 @@ const podcastSection = {
 };
 
 const contactInfo = {
-	title: emoji("Contact Me ☎️"),
+	title: emoji("Contact Me 📧"),
 	subtitle:
 		"Discuss a project or just want to say hi my inbox is open for all",
-	number: "+92-3243454077",
-	email_address: "saadpasta70@gmail.com",
+	number: undefined,
+	email_address: "michael.finger@icytv.de",
 };
 
 //Twitter Section

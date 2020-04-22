@@ -8,11 +8,8 @@ function Header() {
 		<Fade top duration={1000} distance="20px">
 			<div>
 				<header className="header">
-					<a href="" className="logo">
-						{/* <span className="grey-color"> &lt;</span>
-						<span className="logo-name">IcyTv</span>
-						<span className="grey-color">/&gt;</span> */}
-						<Logo />
+					<a href="#top" className="logo">
+						<Logo width="1rm" height="1rm" />
 					</a>
 					<input className="menu-btn" type="checkbox" id="menu-btn" />
 					<label className="menu-icon" htmlFor="menu-btn">
