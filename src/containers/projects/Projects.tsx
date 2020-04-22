@@ -81,7 +81,6 @@ export default function Projects() {
 					text={"More Projects"}
 					className="project-button"
 					href="https://github.com/saadpasta"
-					newTab={true}
 				/>
 			</div>
 		</Fade>

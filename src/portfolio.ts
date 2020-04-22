@@ -2,43 +2,49 @@
 
 // Your Summary And Greeting Section
 
+import css3Icon from "@iconify/icons-fa-brands/css3";
+import html5 from "@iconify/icons-fa/html5";
+import databaseIcon from "@iconify/icons-feather/database";
+import dockerIcon from "@iconify/icons-logos/docker-icon";
+import javaicon from "@iconify/icons-logos/java";
+import javascriptIcon from "@iconify/icons-logos/javascript";
+import nodejsIcon from "@iconify/icons-logos/nodejs-icon";
+import pythonIcon from "@iconify/icons-logos/python";
 import emoji from "react-easy-emoji";
-import { Greeting } from "./assets/types/interfaces";
+import { Greeting, Skills, SocialMediaLinks } from "./assets/types/interfaces";
 
 const greeting: Greeting = {
 	/* Your Summary And Greeting Section */
 	title: "Hi, I'm Michael",
 	subTitle:
-		"A passionate Full Stack Software Developer 🚀 with experience in Java, JavaScript, Python, C++",
+		"A passionate Full Stack Software Developer 🚀\n with experience in Java, JavaScript, Python, C++",
 	resumeLink:
 		"https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
 };
 
 // Your Social Media Link
 
-const socialMediaLinks = {
+const socialMediaLinks: SocialMediaLinks = {
 	github: "https://github.com/IcyTv",
-	linkedin: undefined,
 	gmail: "michael.finger@icytv.de",
 	gitlab: "https://git.icytv.de",
-	facebook: undefined,
 };
 
 // Your Skills Section
 
-const skillsSection = {
+const skillsSection: Skills = {
 	title: "What i do",
-	subTitle: "CRAZY FULL STACK DEVELOPER WHO WANT TO EXPLORE EVERY TECH STACK",
+	subTitle: "A bit of everything",
 	skills: [
-		emoji(
-			"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-		),
-		emoji(
-			"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
-		),
-		emoji(
-			"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-		),
+		// emoji(
+		// 	"⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+		// ),
+		// emoji(
+		// 	"⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"
+		// ),
+		// emoji(
+		// 	"⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+		// ),
 	],
 
 	/* Make Sure You include correct Font Awesome Classname to view your icon
@@ -46,56 +52,39 @@ https://fontawesome.com/icons?d=gallery */
 
 	softwareSkills: [
 		{
-			skillName: "html-5",
-			fontAwesomeClassname: "fab fa-html5",
+			skillName: "Java",
+			icon: javaicon,
 		},
 		{
-			skillName: "css3",
-			fontAwesomeClassname: "fab fa-css3-alt",
+			skillName: "Html5",
+			icon: html5,
+			color: "#F16529",
 		},
 		{
-			skillName: "sass",
-			fontAwesomeClassname: "fab fa-sass",
+			skillName: "Css3",
+			icon: css3Icon,
+			color: "#264de4",
 		},
 		{
 			skillName: "JavaScript",
-			fontAwesomeClassname: "fab fa-js",
+			icon: javascriptIcon,
 		},
 		{
-			skillName: "reactjs",
-			fontAwesomeClassname: "fab fa-react",
+			skillName: "NodeJs",
+			icon: nodejsIcon,
 		},
 		{
-			skillName: "nodejs",
-			fontAwesomeClassname: "fab fa-node",
+			skillName: "SQL",
+			icon: databaseIcon,
+			color: "purple",
 		},
 		{
-			skillName: "swift",
-			fontAwesomeClassname: "fab fa-swift",
+			skillName: "Python",
+			icon: pythonIcon,
 		},
 		{
-			skillName: "npm",
-			fontAwesomeClassname: "fab fa-npm",
-		},
-		{
-			skillName: "sql-database",
-			fontAwesomeClassname: "fas fa-database",
-		},
-		{
-			skillName: "aws",
-			fontAwesomeClassname: "fab fa-aws",
-		},
-		{
-			skillName: "firebase",
-			fontAwesomeClassname: "fas fa-fire",
-		},
-		{
-			skillName: "python",
-			fontAwesomeClassname: "fab fa-python",
-		},
-		{
-			skillName: "docker",
-			fontAwesomeClassname: "fab fa-docker",
+			skillName: "Docker",
+			icon: dockerIcon,
 		},
 	],
 };
@@ -107,15 +96,15 @@ const techStack = {
 	experience: [
 		{
 			Stack: "Frontend/Design", //Insert stack or technology you have experience in
-			progressPercentage: "90%", //Insert relative proficiency in percentage
+			progressPercentage: "50%", //Insert relative proficiency in percentage
 		},
 		{
 			Stack: "Backend",
-			progressPercentage: "70%",
+			progressPercentage: "80%",
 		},
 		{
 			Stack: "Programming",
-			progressPercentage: "60%",
+			progressPercentage: "90%",
 		},
 	],
 };
@@ -273,8 +262,7 @@ const podcastSection = {
 
 const contactInfo = {
 	title: emoji("Contact Me 📧"),
-	subtitle:
-		"Discuss a project or just want to say hi my inbox is open for all",
+	subtitle: "",
 	number: undefined,
 	email_address: "michael.finger@icytv.de",
 };

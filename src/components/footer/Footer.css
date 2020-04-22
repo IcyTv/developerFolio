@@ -1,9 +1,16 @@
 .footer-text {
-  text-align: center;
-  color: #868e96;
+	text-align: center;
+	color: #868e96;
 }
 
 .footer-div {
-  margin-top: 2rem;
+	margin-top: 2rem;
+}
 
+.small {
+	font-size: smaller;
+}
+
+.small > a {
+	color: #868e96;
 }

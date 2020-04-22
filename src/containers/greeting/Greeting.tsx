@@ -20,29 +20,24 @@ export default function Greeting() {
 									{emoji("👋")}
 								</span>
 							</h1>
-							<p className="greeting-text-p subTitle">
-								{(() => {
-									let n = [];
-									for (let i of greeting.subTitle.split(
-										"\n"
-									)) {
-										console.log(i);
-										n = n.concat([emoji(i), "<br />"]);
-									}
-									return n;
-								})()}
-							</p>
+							{(() => {
+								return greeting.subTitle
+									.split("\n")
+									.map((item, i) => (
+										<p className="greeting-text-p subTitle">
+											{item}
+										</p>
+									));
+							})()}
 							<SocialMedia />
 							<div className="button-greeting-div">
 								<Button
 									text="Contact me"
 									href="#contact"
 									className=""
-									newTab={false}
 								/>
 								<Button
 									text="See my resume"
-									newTab={true}
 									href={greeting.resumeLink}
 									className=""
 								/>

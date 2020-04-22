@@ -29,12 +29,12 @@ export default function socialMedia() {
 			) : null}
 			{socialMediaLinks.gmail !== undefined ? (
 				<a
-					href={socialMediaLinks.gmail}
+					href={"mailto:" + socialMediaLinks.gmail}
 					className="icon-button gmail"
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-					<i className="fab fa-gmail"></i>
+					<i className="far fa-envelope-open"></i>
 					<span></span>
 				</a>
 			) : null}

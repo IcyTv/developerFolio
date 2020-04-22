@@ -29,6 +29,7 @@
 {
 	"compilerOptions": {
 		"outDir": "./dist/",
+		"typeRoots": ["@types", "@iconify/types"],
 		"module": "esnext",
 		"target": "es5",
 		"sourceMap": true,
