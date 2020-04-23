@@ -18,8 +18,7 @@ const greeting: Greeting = {
 	title: "Hi, I'm Michael",
 	subTitle:
 		"A passionate Full Stack Software Developer 🚀\n with experience in Java, JavaScript, Python, C++",
-	resumeLink:
-		"https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing",
+	resumeLink: "https://icytv.de/resume",
 };
 
 // Your Social Media Link

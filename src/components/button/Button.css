@@ -17,7 +17,8 @@
 	transition: ease-in 0.3s;
 }
 .main-button:hover {
-	background-color: #ffffff;
+	/* background-color: #ffffff; */
+	background-color: inherit;
 	color: black;
 	transition: ease-in 0.3s;
 }

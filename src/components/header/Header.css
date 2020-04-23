@@ -11,22 +11,29 @@
 	padding: 0;
 	list-style: none;
 	overflow: hidden;
-	background-color: #fff;
+	/* background-color: #fff; */
+	background-color: inherit;
 }
 .grey-color {
 	color: #868e96;
 }
 
+.header li label input,
 .header li a {
 	display: block;
 	padding: 20px 20px;
-	color: black;
+	color: inherit;
 	text-decoration: none;
+}
+
+#dark-toggle {
+	display: block;
+	padding: 14px;
 }
 
 .header li a:hover,
 .header .menu-btn:hover {
-	background-color: #f4f4f4;
+	color: lightblue;
 }
 
 .header .logo {

@@ -45,6 +45,7 @@ export default function Contact() {
 						<img
 							alt="Michael Working"
 							src={require("../../assets/images/contactMail.png")}
+							style={{ backgroundColor: "inherit" }}
 						></img>
 					</div>
 				</div>
