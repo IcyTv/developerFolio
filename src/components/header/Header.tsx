@@ -9,7 +9,7 @@ export class Header extends Component {
 	render() {
 		return (
 			<Fade top duration={1000} distance="20px">
-				<div>
+				<div key="header">
 					<header className="header">
 						<a href="#top" className="logo">
 							<Logo width="1rm" height="1rm" />
