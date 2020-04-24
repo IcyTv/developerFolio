@@ -80,7 +80,7 @@ export default function Projects() {
 				<Button
 					text={"More Projects"}
 					className="project-button"
-					href="https://github.com/saadpasta"
+					href={"https://github.com/" + openSource.githubUserName}
 				/>
 			</div>
 		</Fade>
